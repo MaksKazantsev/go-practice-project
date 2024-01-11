@@ -52,7 +52,9 @@ func main() {
 		fmt.Scan(&a)
 		fmt.Println("Enter B coefficient")
 		fmt.Scan(&b)
+
 		// Solving logic
+
 		if a < 0 && b < 0 {
 			fmt.Printf("Coefficients can not be smaller than 0")
 		} else {
